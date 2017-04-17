@@ -5,15 +5,18 @@
 }
 
 .cajas{
-  width: 98%;
-  margin:20px;
-  background: yellow;
+  width: 14%;
+  margin:7% 42% ;
 }
 
 .cajas p{
+  margin-bottom: 21px;
   padding: 10px 0px 50px 10px;
 }
+.caja1, .caja3{
+    background: yellow;
+}
 .caja-rosa{
-  border:1px solid #000;
+  /*border:1px solid #000;*/
   background: magenta;
 }
