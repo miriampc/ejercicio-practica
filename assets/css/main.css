@@ -3,9 +3,6 @@
   padding: 0;
   margin: 0;
 }
-.caja-padre{
-  margin-left: 21%;
-}
 
 .caja-hijo{
   width: 70px;
@@ -15,18 +12,13 @@
   margin: 7px 3.5px;
 }
 
-.contenedor, .caja-invisible{
-  width: auto;
-  height: auto;
-}
 .contenedor{
-  display: inline-block;
-  padding: 0px 7px;
-}
-.caja-invisible{
-  display: block;
+  width: 252px;
+  height: auto;
+  padding: 3.5px 0px 0px 7px;
+  margin-top: 14px;
 }
 
-.contenedor>div, .caja-invisible>div{
+.inline-block{
   display: inline-block;
 }
